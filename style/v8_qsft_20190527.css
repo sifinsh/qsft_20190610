@@ -1,0 +1,257 @@
+/* updatetime         : 2019-05-27 */
+
+
+/* 报错请找
+/* web development    : 杨帆 */
+
+
+/* qq mail            : 121876723 sifinsh@163.com */
+
+
+/* 结构 */
+
+html,
+body {
+    height: 100%;
+}
+
+.ft_box {
+    background: url(../images/cp_qsft_20190604_01.jpg) center 46px no-repeat;
+    min-height: 1096px;
+    padding-top: 46px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.swiper_backpic {
+    background: url(../images/cp_qsft_20190604_03.png) center -20px no-repeat;
+    height: 463px;
+}
+
+.swiper-container1 {
+    padding-bottom: 50px;
+}
+
+.swiper-container1 .swiper-slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-container1 .swiper-slide a {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-container1 .swiper-slide img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.swiper-pagination1 {
+    bottom: -30px;
+}
+
+.swiper-pagination1 .swiper-pagination-bullet {
+    width: 19px;
+    height: 19px;
+    background: url(../images/cp_qsft_20190604_05.png) no-repeat;
+    opacity: 1;
+}
+
+.swiper-pagination1 .swiper-pagination-bullet-active {
+    width: 19px;
+    height: 19px;
+    background: url(../images/cp_qsft_20190604_04.png) no-repeat;
+}
+
+@media (max-width: 1052px) and (min-width: 992px) {
+    .swiper_backpic {
+        background: none;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .swiper_backpic {
+        background: none;
+        height: auto;
+    }
+    .swiper-container1 .swiper-slide .title {
+        font-size: 18px;
+        margin: 65px 130px 0 20px;
+        max-height: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .swiper_backpic {
+        background: none;
+        height: auto;
+    }
+    .swiper-container1 {
+        padding-bottom: 0.6rem;
+    }
+    .swiper-container1>.swiper-pagination1 {
+        bottom: -0.2rem;
+    }
+}
+
+.main_content {
+    background: url(../images/cp_qsft_20190604_08.jpg);
+    margin: 120px 0 0 0;
+    padding-bottom: 80px;
+}
+
+.left_list {
+    margin: 0 0 40px 0;
+}
+
+.left_list .title {
+    background: url(../images/cp_qsft_20190604_06.png) left center no-repeat;
+}
+
+.left_list .title .dotted {
+    background: url(../images/cp_qsft_20190604_15.jpg) left center repeat-x;
+    margin: 0 0 0 40px;
+}
+
+.left_list .title .dotted span {
+    background-color: #fff;
+    font-size: 20px;
+    color: #c1272d;
+    line-height: 34px;
+    padding-right: 10px;
+    font-family: "微软雅黑";
+}
+
+.left_list .content {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px 0 0 0;
+}
+
+.left_list .content .pic {
+    width: 50%;
+}
+
+.left_list .content .pic img {
+    width: 100%;
+    max-width: 320px;
+}
+
+.left_list .content .text {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.left_list .content .text h2 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #000;
+    font-family: "微软雅黑";
+    margin: 0 0 10px 0;
+}
+
+.left_list .content .text .author {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: #666;
+    font-family: "微软雅黑";
+    display: block;
+}
+
+.left_list .content .text .post {
+    font-size: 14px;
+    color: #888;
+    display: block;
+}
+
+.left_more {
+    width: 231px;
+    height: 46px;
+    margin: 80px auto 0;
+}
+
+.jb_title img {
+    width: 100%;
+}
+
+.jb_content {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 22px 0;
+}
+
+.jb_content .text {
+    padding: 0 15px;
+    flex-grow: 1;
+}
+
+.jb_content .text .author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    display: block;
+}
+
+.jb_content .text .post {
+    font-size: 14px;
+    color: #666;
+    display: block;
+    margin: 5px 0 0 0;
+}
+
+.jb_content .pic {
+    width: 95px;
+    padding-right: 20px;
+}
+
+.jb_line {
+    background: url(../images/cp_qsft_20190604_16.jpg);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0;
+}
+
+.subcolumn {
+    border-top: #e5e5e5 1px solid;
+    border-bottom: #e5e5e5 1px solid;
+    padding: 13px 0;
+}
+
+.subcolumn .content {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+}
+
+.subcolumn .content .item {
+    width: 25%;
+}
+
+.subcolumn .content .item .icon {
+    float: left;
+    height: 49px;
+    line-height: 49px;
+}
+
+.subcolumn .content .item .text {
+    float: left;
+    width: 150px;
+    text-align: center;
+    font-size: 22px;
+    color: #666;
+    height: 49px;
+    line-height: 49px;
+}
+
+.subcolumn .content .item .text a {
+    color: #666;
+}
